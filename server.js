@@ -6,12 +6,8 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({
-<<<<<<< HEAD
-  origin: 'http://localhost:3000',
-  // origin: 'https://tuttor-app.vercel.app/',
-=======
+//  origin: 'http://localhost:3000',
   origin: 'https://tuttor-app.vercel.app/',
->>>>>>> 71faf27de1af465ba974f9f4bb1ca805f3b1f248
   credentials: true
 }));
 
